@@ -12,6 +12,7 @@ begin
 	     "Rakefile",
 	     "VERSION",
 	     "convert_colors.gemspec",
+	"init.rb",
 	"lib/convert_colors.rb"
 	]
   end

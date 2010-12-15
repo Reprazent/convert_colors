@@ -19,7 +19,9 @@ Gem::Specification.new do |s|
     "Rakefile",
      "VERSION",
      "convert_colors.gemspec",
-     "lib/convert_colors.rb"
+     "lib/convert_colors.rb",
+     "lib/convert_colors/collection.rb",
+     "lib/convert_colors/color.rb"
   ]
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]

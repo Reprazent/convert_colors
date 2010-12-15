@@ -147,6 +147,6 @@ class Collection
 			@colors << Color.new("DarkSlateGray				  ", 47, 79, 79)
 			@colors << Color.new("Black						  ",  0,  0,  0)
 		end
-		@colors
+		@colors.sort! { |a,b| a.name.downcase <=> b.name.downcase }
 	end
 end

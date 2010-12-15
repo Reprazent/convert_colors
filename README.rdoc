@@ -1,0 +1,12 @@
+= Convert Colors
+
+Simple gem to convert HTML color strings or Hex value to their RGB values so you can do calculations with them
+
+== Usage
+Just install the Gem (gem 'convert_colors' in your gemfile)
+You can then call it like this: 
+	ConvertColors.colors #This gets all the colors
+	ConvertColors.color("green") #Gets a color
+	
+== Sources
+I got the list of colors from: http://en.wikipedia.org/wiki/Web_colors

@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.description = %q{Convert colors from strings to their values}
   s.email = %q{}
   s.extra_rdoc_files = [
-    "README.txt"
+    "README.rdoc"
   ]
   s.files = [
     "Rakefile",

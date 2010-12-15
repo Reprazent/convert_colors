@@ -11,7 +11,7 @@ class Color
 		self.blue = blue
 	end
 
-	def to_html_string
-		"##{red.to_s(base=16)+green.to_s(base=16)+blue.to_s(base=16)}"
+	def to_html
+		"##{("%02X" % red) +("%02X" % green)+("%02X" % blue)}"
 	end
 end

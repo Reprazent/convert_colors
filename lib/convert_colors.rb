@@ -13,4 +13,17 @@ module ConvertColors
 	def self.colors
 		Collection.colors
 	end
+	def self.base_colors
+		@colors
+		if !@colors
+			@colors = []
+			Collection.colors.each do |color|
+				if color.name.downcase =='red' || color.name.downcase == 'green' || color.name.downcase == "yellow" || 
+					color.name.downcase == "blue" || color.name.downcase == "white" || color.name.downcase == "black"
+					@colors << color
+				end
+			end
+		end
+		@colors
+	end
 end

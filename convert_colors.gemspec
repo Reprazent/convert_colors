@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Bob Van Landuyt"]
-  s.date = %q{2010-12-15}
+  s.date = %q{2010-12-20}
   s.description = %q{Convert colors from strings to their values}
   s.email = %q{}
   s.extra_rdoc_files = [

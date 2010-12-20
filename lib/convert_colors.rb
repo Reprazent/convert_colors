@@ -19,7 +19,7 @@ module ConvertColors
 			@colors = []
 			Collection.colors.each do |color|
 				if color.name.downcase =='red' || color.name.downcase == 'green' || color.name.downcase == "yellow" || 
-					color.name.downcase == "blue" || color.name.downcase == "white" || color.name.downcase == "black"
+					color.name.downcase == "blue" || color.name.downcase == "white" || color.name.downcase == "black" || color.name.downcase == "gray"
 					@colors << color
 				end
 			end
